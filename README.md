@@ -71,4 +71,4 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 - Website [your-website.com](https://{your-web-site-link})
 - GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- Linkedin [@lucca_mancusi](https://{linkedin.com/in/lucca-romano-mari-mancusi-9a276b200/})
