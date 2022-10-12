@@ -1,0 +1,132 @@
+/* font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Space Mono', monospace; */
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  font-family: "Inconsolata", monospace;
+  font-weight: 700;
+  padding-left: 77px;
+  padding-top: 40px;
+  margin-bottom: 200px;
+  font-size: 24px;
+  line-height: 25px;
+  color: #333333;
+}
+
+main {
+  display: flex;
+}
+main img {
+  width: 540px;
+  margin-left: 77px;
+}
+
+main .content-container {
+  display: flex;
+  width: calc(99vw - 617px);
+  justify-content: center;
+}
+
+main section {
+  display: flex;
+  flex-direction: column;
+}
+
+main section h1 {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 95px;
+  color: #333333;
+  width: 600px;
+}
+
+main section p {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  color: #4f4f4f;
+  max-width: 381px;
+  margin-top: 36px;
+}
+
+main section button {
+  color: white;
+  width: 216px;
+  height: 68px;
+  background-color: #333333;
+  border: none;
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-size: 14px;
+  margin-top: 64px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+main section button:hover {
+  background-color: #4f4f4f;
+}
+
+footer {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #bdbdbd;
+  position: absolute;
+  bottom: 24px;
+  width: 100%;
+  text-align: center;
+}
+footer span {
+  font-weight: 700;
+}
+
+@media (max-width: 1260px) {
+  header {
+    margin-bottom: 64px;
+  }
+  main {
+    flex-direction: column;
+    align-items: center;
+  }
+  main img {
+    margin: 0;
+  }
+  footer {
+    position: static;
+    margin-top: 114px;
+    margin-bottom: 24px;
+  }
+}
+
+@media (max-width: 650px) {
+  header {
+    padding-top: 20px;
+    padding-left: 24px;
+  }
+  main img {
+    width: 290px;
+    margin-bottom: 60px;
+  }
+  main section h1 {
+    font-size: 48px;
+    line-height: 71px;
+    width: 360px;
+  }
+  main section p {
+    margin-top: 30px;
+    width: 328px;
+    font-size: 18px;
+    line-height: 26px;
+  }
+  main section button {
+  }
+}
